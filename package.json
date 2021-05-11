@@ -1,0 +1,34 @@
+{
+  "name": "learn-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 80",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "@tinymce/tinymce-react": "^3.12.2",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "dotenv": "^8.2.0",
+    "firebase": "^8.3.2",
+    "firebase-admin": "^9.6.0",
+    "firebase-auth": "^0.1.2",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.6.0",
+    "next": "^10.0.0",
+    "next-iron-session": "^4.1.12",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.5.2",
+    "react-bootstrap-dialog": "^0.13.0",
+    "react-dom": "17.0.1",
+    "react-hook-form": "^7.3.2",
+    "swr": "^0.5.5"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}

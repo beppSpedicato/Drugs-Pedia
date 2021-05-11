@@ -1,0 +1,60 @@
+@import "https://use.fontawesome.com/releases/v5.7.0/css/all.css";
+* {
+    margin: 0px;
+}
+.bgcolor-secondary {
+    background-color: #03374c;
+    color: white;
+}
+.centerAlignment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 100vw;
+    height: 95vh;
+    color: white;
+}
+.title{
+    width: 100vw;
+    margin: auto auto;
+    height: 10rem;
+    font-size: 4rem;
+}
+
+.searchForm>.input, .searchForm>.input:focus{
+    width: 45vw;
+    min-width: 35rem;
+    border-radius: 1rem 0rem 0rem 0rem;
+    border-right: none;
+    border: none;
+    background-color: white;/* 
+    display: flex; */
+}
+.searchForm>.button, .searchForm>.button:focus {
+    border-radius: 0rem 0rem 1rem 0rem;
+    border: 1px solid #ced4da;
+    border-left: 0px;
+    background-color: white;
+    box-shadow: none;
+}
+.searchForm>.button:hover {
+    background: #eee;
+}
+.searchForm>.button>i {
+    background-color: transparent;
+}
+
+.searchForm>.input , TextField, .searchForm>.button{
+    height: 4rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .searchForm>.input, TextField,.searchForm>.input:focus, TextField:focus{
+        min-width: 80%;
+    }
+    .title {
+        font-size: 12vw;
+    }
+}
