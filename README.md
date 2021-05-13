@@ -15,7 +15,7 @@ Utilizzato come database per l'app (noSQL)
 ###### Configurazione 
 Creare un progetto <a href="https://firebase.google.com/">Firebase</a> e abilitare i servizi authentication e firestore.
 Una volta entrati nella console potete vedere le vostre credenziali di progetto.
-Create nel vostro progetto il file .env usando come base il file [a relative link](.env.example).
+Create nel vostro progetto il file .env usando come base il file [.env.example](.env.example).
 Successivamente potete sostituire i campi di esempio con le vostre credenziali di progetto.
 
 ###### Installare i pacchetti di node...
